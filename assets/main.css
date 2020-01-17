@@ -175,3 +175,23 @@ and (-webkit-device-pixel-ratio : 3)
 }
 
 
+@media only screen and (min-width: 411px) and (max-width: 767px) 
+{ 
+    html {
+        width: 18rem;
+        font-size: 13px;
+    }
+    body{
+        padding: 0;
+    }
+    .title1{color: #b2132e;font-size: 2rem;}
+    .title2{color: #52739e;font-size: 2rem;}
+    .top-left { padding-right: 0rem; }
+    .bottom-right { font-size: 1rem; top: 2rem; padding-right: 0rem; }
+    .img-top-left { height: 6rem;padding: 0 0 0rem 2rem;/* top: 0px; */float: left; margin-bottom: 2rem;}
+    a.current { padding: 0 .3rem; }
+    a.other { padding: 0 .3rem; }
+    div.navigation { padding-top: 2rem; }
+
+}
+
