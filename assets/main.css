@@ -40,14 +40,14 @@ a{color: #b8860b; text-decoration:none;}
 a.current{color: #52739e;}
 a:hover{color: #b2132e; text-decoration:none;}
 a.current:hover{color: #52739e;}
-h1,h2,h3,h4{clear:left; color: #70344a; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif;}
+h1,h2,h3,h4{clear:left;color: #70344a;margin: 2.5rem 0em 1em 0em;font-family:'Roboto Slab',serif;}
 h1{font-size:2.67em;}
-h2{font-size:2.00em;}
+h2{font-size: 1.8rem;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:1rem auto 1rem auto; padding:0 1rem; text-align:left;}
-ul{list-style:none; margin:1rem auto 1rem auto; width:28rem; text-align:left;}
-ul li{list-style:disc; margin:0 auto 0 auto; text-align:left;}
+ul{list-style:none; margin:1rem auto 1rem auto; width:800px; text-align:left;}
+ul li{list-style:disc;margin: 0 3rem;text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
 sup{
@@ -62,7 +62,7 @@ sub{
 }
 table{
     width: 35rem;
-    margin: 1.5rem auto 2rem auto;
+    margin: 2rem auto 2rem auto;
     float: center;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
@@ -74,19 +74,19 @@ th,td{
 }
 
 /* Conference Title Logo */
-.title1{color: #b2132e;font-size: 2.7rem;} 
-.title2{color: #52739e;font-size: 2.7rem;}
+.title1{color: #b2132e;font-size: 3rem;} 
+.title2{color: #52739e;font-size: 3rem;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
-.top-left {font-size: 4.00em;font-weight: bold;color: #505050;background: #fafafa;text-align: center;width: 35rem;height: 3rem;padding: 36px 0 0 0;top: 0px;}
-.img-top-left {/* font-size:5.00em; *//* font-weight: bold; *//* color: #505050; *//* background: #fafafa; *//* text-align: center; *//* width: 1000px; */height: 6rem;padding: 0 0 0 2rem;/* top: 0px; */float: left;}
+.top-left {font-size: 4.00em;font-weight: bold;color: #505050;background: #fafafa;text-align: right;width: 35rem;height: 3rem;padding: 2rem 0 0 0;margin: 0;/* top: 0px; */}
+.img-top-left {/* font-size:5.00em; *//* font-weight: bold; *//* color: #505050; *//* background: #fafafa; *//* text-align: center; *//* width: 1000px; */height: 6rem;padding: 0 0 0 3rem;/* top: 0px; */float: left;}
 .bottom-right {font-size: 1.1rem;color: #52739e;line-height: 1.5em;width: auto;height: 2rem;padding: 0 3rem 1rem 0;text-align: right;bottom: 0px;right: 0px;}
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width: 35rem;}
-td.navigation{font-size: 1.3rem;color: #bbbbbb;white-space:nowrap;width:20%;text-align:center;vertical-align:middle;padding:0px 30px 0px 0px;}
+td.navigation{font-size: 1.3rem;color: #bbbbbb;white-space:nowrap;width:20%;text-align:center;vertical-align:middle;padding: 0px 1rem 0px 0px;}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
