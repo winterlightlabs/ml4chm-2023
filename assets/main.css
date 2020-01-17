@@ -16,13 +16,16 @@
 *{
     border:0;
     font:inherit;
+    font-size: 20px;
     padding:0;
     vertical-align:baseline;
+    line-height: 1.7rem;
 }
 
+
 html {
-    width: 50rem;
-    font-size: 20px;
+    /* width: 50rem; */
+    font-size: 12pt;
     margin: 0 auto;
 }
 
@@ -65,11 +68,12 @@ sub{
     line-height: 0;
 }
 table{
-    width: 35rem;
+    /* width: 35rem; */
     margin: 3rem auto 2rem auto;
     float: center;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
+    /* font-size: 3rem; */
 }
 th,td{
     text-align: left;
@@ -85,12 +89,12 @@ th,td{
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
 .top-left {font-size: 4.00em;font-weight: bold;color: #505050;background: #fafafa;text-align: right;/* width: 35rem; */height: 3rem;padding: 2rem 7rem 0 0;margin: 0;/* top: 0px; */}
-.img-top-left {/* font-size:5.00em; *//* font-weight: bold; *//* color: #505050; *//* background: #fafafa; *//* text-align: center; *//* width: 1000px; */height: 7rem;padding: 0 0 0rem 5rem;/* top: 0px; */float: left;margin-bottom: 2rem;}
+.img-top-left {/* font-size:5.00em; *//* font-weight: bold; *//* color: #505050; *//* background: #fafafa; *//* text-align: center; *//* width: 1000px; */height: 7rem;padding: 0 0 0rem 4rem;/* top: 0px; */float: left;margin-bottom: 2rem;}
 .bottom-right {font-size: 1.2rem;color: #52739e;line-height: 1.5em;width: auto;height: 2rem;padding: 0 7rem 1rem 0;text-align: right;bottom: 0px;right: 0px;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{/* width: 35rem; */}
-td.navigation{font-size: 1.3rem;color: #bbbbbb;white-space:nowrap;width:20%;text-align:center;vertical-align:middle;padding: 0px 2rem 0px 0px;}
+table.navigation{/* width: 35rem; *//* font-size: 2rem; */}
+td.navigation{font-size: 1.3rem;color: #bbbbbb;white-space:nowrap;width:20%;text-align:center;vertical-align:middle;padding: 0 2rem 0 0;}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
