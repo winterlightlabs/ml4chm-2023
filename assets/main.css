@@ -36,10 +36,12 @@ div.navigation {
 a.current{
     color: #52739e;
     padding: 0 1.1rem;
+    font-size: 1.2rem;
 }
 
 a.other{
     padding: 0 1.1rem;
+    font-size: 1.2rem;
 }
 
 body{
@@ -140,7 +142,7 @@ td.footer{width:auto; text-align:center; vertical-align:middle;}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) { 
     html {
-        width: 50rem;
+        width: 45rem;
         font-size: 15px;
     }
 }
@@ -151,7 +153,7 @@ and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) 
 { 
     html {
-        width: 50rem;
+        width: 45rem;
         font-size: 15px;
     }
 }
@@ -199,5 +201,6 @@ and (-webkit-device-pixel-ratio : 3)
     div.navigation { padding-top: 2rem; }
 
 }
+
 
 
