@@ -28,17 +28,6 @@ html {
     margin: 0 auto;
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 2) 
-{ 
-    html {
-        width: 40rem;
-        font-size: 15px;
-    }
-}
-
 div.navigation {
     padding: 3rem 0 0 0;
     text-align:center;
@@ -149,5 +138,40 @@ td.sponsor img{width: 100%}
 table.footer{font-size:0.875em; margin: 72px auto 12px auto; width:333px;}
 td.footer{width:auto; text-align:center; vertical-align:middle;}
 
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) 
+{ 
+    html {
+        width: 40rem;
+        font-size: 15px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) 
+{ 
+    html {
+        width: 18rem;
+        font-size: 13px;
+    }
+    body{
+        padding: 0;
+    }
+    .title1{color: #b2132e;font-size: 2rem;}
+    .title2{color: #52739e;font-size: 2rem;}
+    .top-left { padding-right: 0rem; }
+    .bottom-right { font-size: 1rem; top: 2rem; padding-right: 0rem; }
+    .img-top-left { height: 6rem;padding: 0 0 0rem 2rem;/* top: 0px; */float: left; margin-bottom: 2rem;}
+    a.current { padding: 0 .3rem; }
+    a.other { padding: 0 .3rem; }
+    div.navigation { padding-top: 2rem; }
+
+}
 
 
