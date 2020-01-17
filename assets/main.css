@@ -17,9 +17,14 @@
     border:0;
     font:inherit;
     font-size: 20px;
-    margin:0;
     padding:0;
     vertical-align:baseline;
+}
+
+html {
+    width: 50rem;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 body{
@@ -31,8 +36,8 @@ body{
     font-family:'Roboto',sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
-    margin: auto;
-    width: 50rem;
+    /* margin: 0 auto; */
+    /* width: 50rem; */
     padding: 0 2rem;
 }
 
@@ -74,8 +79,8 @@ th,td{
 }
 
 /* Conference Title Logo */
-.title1{color: #b2132e;font-size: 3.5rem;} 
-.title2{color: #52739e;font-size: 3.5rem;}
+.title1{color: #b2132e;font-size: 3.2rem;} 
+.title2{color: #52739e;font-size: 3.2rem;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Website Banner */
