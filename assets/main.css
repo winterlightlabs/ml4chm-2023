@@ -175,8 +175,8 @@ and (-webkit-device-pixel-ratio : 3)
     .top-left { padding-right: 0rem; }
     .bottom-right { font-size: 1rem; top: 2rem; padding-right: 0rem; }
     .img-top-left { height: 6rem;padding: 0 0 0rem 2rem;/* top: 0px; */float: left; margin-bottom: 2rem;}
-    a.current { padding: 0 .3rem; }
-    a.other { padding: 0 .3rem; }
+    a.current { padding: 0 .3rem; font-size: 1rem; }
+    a.other { padding: 0 .3rem; font-size: 1rem; }
     div.navigation { padding-top: 2rem; }
 
 }
