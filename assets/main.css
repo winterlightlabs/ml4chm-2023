@@ -31,9 +31,9 @@ body{
     font-family:'Roboto',sans-serif;
     font-size:1em;
     line-height:1.5em;
-    margin: 3rem auto;
+    /* margin: 3rem auto; */
     width: 50rem;
-    padding: 0 2rem;
+    padding: 2rem 2rem;
 }
 
 a{color: #b8860b; text-decoration:none;}
