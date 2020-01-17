@@ -16,7 +16,6 @@
 *{
     border:0;
     font:inherit;
-    font-size: 20px;
     padding:0;
     vertical-align:baseline;
     line-height: 1.7rem;
@@ -25,8 +24,22 @@
 
 html {
     width: 50rem; 
-    font-size: 12pt;
+    font-size: 20px;
     margin: 0 auto;
+}
+
+div.navigation {
+    padding: 3rem 0 0 0;
+    text-align:center;
+}
+
+a.current{
+    color: #52739e;
+    padding: 0 1.3rem;
+}
+
+a.other{
+    padding: 0 1.3rem;
 }
 
 body{
@@ -44,7 +57,7 @@ body{
 }
 
 a{color: #b8860b; text-decoration:none;}
-a.current{color: #52739e;}
+
 a:hover{color: #b2132e; text-decoration:none;}
 a.current:hover{color: #52739e;}
 h1,h2,h3,h4{clear:left;color: #70344a;margin: 2.5rem 0em 1em 0em;font-family:'Roboto Slab',serif;}
@@ -124,5 +137,6 @@ td.sponsor img{width: 100%}
 /* The Footer */
 table.footer{font-size:0.875em; margin: 72px auto 12px auto; width:333px;}
 td.footer{width:auto; text-align:center; vertical-align:middle;}
+
 
 
