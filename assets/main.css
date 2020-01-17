@@ -28,6 +28,17 @@ html {
     margin: 0 auto;
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) 
+{ 
+    html {
+        width: 40rem;
+        font-size: 15px;
+    }
+}
+
 div.navigation {
     padding: 3rem 0 0 0;
     text-align:center;
