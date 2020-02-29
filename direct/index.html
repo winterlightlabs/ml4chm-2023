@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head> 
+    <base href='..'>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script> $.get('head.html', function(data) {
+        $('head').append(data);
+    }) </script>   
+</head> 
+
+
+<body>
+
+    <div id="header"></div>
+    <script> $("#header").load("header.html", function() {
+        $("#cont_button").attr("class", "current");
+    }) </script>
+
+    <br>
+    <p>
+    <ul>
+      <li> Parking and Directions: please see this <a href="https://docs.google.com/document/d/e/2PACX-1vT3C0SVOUG5PyJS5Q9wCRwbFhd93gscWvhNKlevx3mApQ0_b-KQQBgSvxHXpm1vBg/pub"> document </a>.</li>
+      <li> WiFi Connection: <b><i>eduroam</i></b> should work at the event. Otherwise, you can connect via <a href="https://umd.service-now.com/itsupport?id=kb_article_view&article=KB0012824&sys_kb_id=70491cfcdbde04504cb035623996191b">umd-guest</a>.</li>
+    </ul>
+    <p>
+    If you have questions or need more information, please email the 2020 MASC-SLL organizers via <strong>organizers AT mascsll DOT org</strong>.
+    </p>
+    <div id="footer"></div>
+    <script> $("#footer").load("footer.html") </script>
+
+    </body>
+
+    </body>
+</html>
+
