@@ -3,71 +3,42 @@
 
 <head>
     <base href="..">
-    <meta name="description" content="Conference Template">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <meta name="resource-type" content="document">
-    <meta name="distribution" content="global">
-    <meta name="KeyWords" content="Conference">
-    <title>Directions</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script> $.get('head.html', function(data) {
+        $('head').append(data);
+    }) </script>   
 </head>
 
 <body>
-    More details will be provided from April 5th, 2022.
-    <!--<div class="banner">
-        <img src="assets/banner.jpg" alt="Conference Template Banner">
-        <div class="top-left">
-            <span class="title1">Conference</span><span class="title2">Template</span> <span class="year">2525</span>
-        </div>
-        <div class="bottom-right">
-            June 31, 2525 <br> University Name, and City Maybe
-        </div>
-    </div>
 
-    <table class="navigation">
-        <tr>
-            <td class="navigation">
-                <a title="Conference Home Page" href=".">Home</a>
-            </td>
-            <td class="navigation">
-                <a title="Register for the Conference" href="registration">Registration</a>
-            </td>
-            <td class="navigation">
-                <a title="Conference Program" href="program">Program</a> 
-            </td>
-            <td class="navigation">
-                <a class="current" title="Directions to the Conference" href="directions">Directions</a>
-            </td>
-            <td class="navigation">
-                <a title="Conference Flyer" href="flyer">Flyer</a>
-            </td>
-        </tr>
-    </table>
+    <div id="header"></div>
+    <script> $("#header").load("header.html", function() {
+        $("#cont_button").attr("class", "current");
+    }) </script>
 
-
-    <h2>Directions</h2>
+    <br>
+    <center>
+    <iframe src="https://www.google.com/maps/d/embed?mid=19ZMjLUNq3UfNBCmINA7RmcDytM9kj7Cr&usp=sharing" width="640" height="480"></iframe>
+    </center>
     <p>
-        Here's where you should put directions to the conference,
-        and other information that will help attendees find the location,
-        and find the building, and register and local places they can stay, etc.
-        You can embed a <a href="https://www.google.com/maps">Google Maps</a> iframe
-        with directions to the conference like a did below.
-        Also helpful is to include maps of the campus itself,
-        or pictures of the building the conference will be in.
-        I've opted to use a placeholder image of a kitten below.
+    <ul>
+      <li> <b>Location</b>: the event takes place at Science Education and Research Center (SERC), 1925 N 12th Street, Philadelphia.
+	<ul>
+		<li> Room 116 (9am-11am and 2pm-6pm) - go left after entering SERC building, room is on the left side of the hall
+		<li> Lobby (11am - 2pm) - go right after entering SERC building
+	</ul>
+      <li> <b>Parking</b>: You can park on street around SERC (Montgomery, 11th, 12th, 13th, Cecil B. Moore, Norris) - there should be enough space as it is Saturday. However, make sure that parking is allowed. Besides, the nearest parking garage is <a href="https://www.google.com/maps/place/Montgomery+Garage/@39.9803583,-75.1528825,18z/data=!4m5!3m4!1s0x89c6c80afdfb4ad3:0xa7e3a0a31261b6f3!8m2!3d39.9806552!4d-75.1515958">Montgomery Garage ($4/hour)</a>, 1859 N 11th Street, Philadelphia. You can also use <a href="https://www.google.com/maps/place/Tuttleman+Lot/@39.9803583,-75.1528825,18z/data=!4m5!3m4!1s0x89c6c80a83343243:0xe9b9e8862bf242bb!8m2!3d39.9800432!4d-75.1542416">Tuttleman Lot ($6/hour)</a>, 1205 W Montgomery Ave. If you decide to park in a garage, we suggest buying a Weekend Parking Pass ($30). See more details about <a href="https://campusoperations.temple.edu/parking-transportation/parking-rates/visitor-parking-rates">visitor parking spots here</a>. 
+
+<li> <b>WiFi Connection</b>: the <i>"eduroam"</i> network should work at the event. Otherwise, you can connect to the Internet via <a href="https://its.temple.edu/sites/its/files/TempleGuestWirelessAccess.pdf">TUguestwireless</a>.</li>
+    </ul>
+    <p>
+    If you have questions or need more information, please email the 2022 MASC-SLL organizers via <strong>organizers AT mascsll DOT org</strong>.
     </p>
+    <div id="footer"></div>
+    <script> $("#footer").load("footer.html") </script>
 
-    <iframe class="directions" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d134998.56138929052!2d-121.98776790326531!3d37.869213445646146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808ff431db2f96d1%3A0x8b99d90a20aa67de!2sMt+Diablo!5e0!3m2!1sen!2sus!4v1561787340910!5m2!1sen!2sus"></iframe>
-
-    <img class="center" src="assets/kitten4.jpg" alt="This is just a kitten right now" id="kitten">
-
-    <table class="footer">
-        <tr>
-            <td class="footer">Design by <a target="_blank" href="http://math.ucr.edu/~mpierce/">Mike Pierce</a></td> 
-            <td class="footer">&copy; Conference Organizers</td> 
-        </tr>
-    </table>-->
+    </body>
 
     </body>
 </html>
+
