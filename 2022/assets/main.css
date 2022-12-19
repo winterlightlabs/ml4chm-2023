@@ -1,0 +1,224 @@
+/* main.css */
+
+/* These are the colors and fonts used throughout the webpage.
+ * I've listed them here so that users can easily
+ * do a search-and-replace for these to change the site theme if they choose.
+ *   'Roboto',sans-serif; Font for the title text
+ *   'Roboto-Slab',serif; Font for the body text 
+ *   #fefefe; Background color of the site
+ *   #505050; Foreground (text) color of the site
+ *   #52739e; Navy, "Template" in the logo, current page in navigation, special titles in the Program
+ *   #70344a; Catawba, Heading color, titles in the Program
+ *   #b2132e; Reddish, "Conference" in the logo, hover color for links
+ *   #b8860b; Dark Goldenrod, color for links
+ */
+
+*{
+    border:0;
+    font:inherit;
+    padding:0;
+    vertical-align:baseline;
+    line-height: 1.7rem;
+}
+
+
+html {
+    width: 50em; 
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+div.navigation {
+    padding: 3rem 0 0 0;
+    text-align:center;
+}
+
+a.current{
+    color: #52739e;
+    padding: 0 1.1rem;
+    font-size: 1.2rem;
+}
+
+a.other{
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+
+body{
+    background-color: #fafafa;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #505050;
+    text-align:left;
+    font-family:'Roboto',sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* margin: 0 auto; */
+    /* width: 50rem; */
+    padding: 0 2rem;
+}
+
+.people-name {
+    color: #70344a;
+}
+
+.people-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.most-page {
+  width: 70%;
+}
+
+a{color: #b8860b; text-decoration:none;}
+
+a:hover{color: #b2132e; text-decoration:none;}
+a.current:hover{color: #52739e;}
+h1,h2,h3,h4{clear:left;color: #70344a;margin: 2.5rem 0em 1em 0em;font-family:'Roboto Slab',serif;}
+h1{font-size:2.67em;}
+h2{font-size: 1.8rem;}
+h3{font-size:1.67em;}
+h4{font-size:1.33em;}
+p{list-style:none;margin: 1rem auto 1rem auto;padding: 0 1rem 0 1rem;text-align:left;}
+ul{list-style:none;margin:1rem auto 1rem auto;/* width:800px; */text-align:left;}
+ul li{list-style:disc;margin: 0 3rem;text-align:left;}
+i,em{font-style:italic;}
+b,strong{font-weight:bold;}
+sup{
+    vertical-align: super;
+    font-size: 0.8em;
+    line-height: 0;
+}
+sub{
+    vertical-align: sub;
+    font-size: 0.8em;
+    line-height: 0;
+}
+table{
+    /* width: 35rem; */
+    margin: 0.5rem 3rem;
+    float: center;
+    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
+    /*border: 1px solid black;*/
+    /* font-size: 3rem; */
+}
+th,td{
+    text-align: left;
+    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
+    /*border: 1px solid black;*/
+}
+
+/* Conference Title Logo */
+.title1{color: #b2132e;font-size: 3rem;} 
+.title2{color: #52739e;font-size: 3rem;}
+.year{color: #505050; font-size:0.67em; font-weight: lighter;}
+
+/* Website Banner */
+.banner {position: relative; font-family:'Roboto Slab',serif;}
+.top-left {font-size: 4.00em;font-weight: bold;color: #505050;background: #fafafa;text-align: right;/* width: 35rem; */height: 3rem;padding: 2rem 7rem 0 0;margin: 0;/* top: 0px; */}
+.img-top-left {/* font-size:5.00em; *//* font-weight: bold; *//* color: #505050; *//* background: #fafafa; *//* text-align: center; *//* width: 1000px; */height: 7rem;padding: 0 0 0rem 4rem;/* top: 0px; */float: left;margin-bottom: 2rem;}
+.bottom-right {font-size: 1.2rem;color: #52739e;line-height: 1.5em;width: auto;height: 2rem;padding: 0 7rem 1rem 0;text-align: right;bottom: 0px;right: 0px;}
+
+/* Navigation Links (Home, Registration, etc) */
+table.navigation{/* width: 35rem; *//* font-size: 2rem; */}
+td.navigation{font-size: 1.3rem;color: #bbbbbb;white-space:nowrap;width:20%;text-align:center;vertical-align:middle;padding: 0 2rem 0 0;}
+
+/* Sponsor Images */
+table.sponsors{width:800px;}
+td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+td.sponsor img{width: 100%}
+
+/* The Table on the Program Page */
+td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
+td.date{white-space:nowrap;width:130px;text-align:right;vertical-align:top;padding:4px 16px 0px 0px;font-size: 0.8rem;}
+td.maindate{white-space:nowrap;width:130px;text-align:right;vertical-align:top;padding:4px 16px 0px 0px;font-size: 1rem;font-weight: bold;}
+td.title{padding: 4px 12px 4px 4px;width: 90%;vertical-align:top;font-size: 1.2em;color: #70344a;height:32px;}
+td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #52739e; height:32px;}
+td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
+td.abstract{padding: 4px 12px 12px 4px;font-size: .8em;max-height:999999px;}
+td.abstract img{display: block; margin: 4px auto 8px auto}
+table.plenary{padding-top: 8px; background: #ffffff;}
+
+/* Registration and Directions iframes and Images */
+iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
+iframe.directions{display:block; margin:1em auto 2em auto; width:800px; height:400px; border:none;}
+img.center{display:block; width:67%; margin:1em auto 2em auto;}
+
+/* Flyer Images */
+table.flyers{width:800px;}
+td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+td.sponsor img{width: 100%}
+
+/* The Footer */
+table.footer{font-size:0.875em; margin: 72px auto 12px auto; width:333px;}
+td.footer{width:auto; text-align:center; vertical-align:middle;}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+    html {
+        width: 50rem;
+        font-size: 15px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) 
+{ 
+    html {
+        width: 50rem;
+        font-size: 15px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) 
+{ 
+    html {
+        width: 25rem;
+        font-size: 13px;
+    }
+    body{
+        padding: 0;
+    }
+    .title1{color: #b2132e;font-size: 2rem;}
+    .title2{color: #52739e;font-size: 2rem;}
+    .top-left { padding-right: 0rem; }
+    .bottom-right { font-size: 1rem; top: 2rem; padding-right: 0rem; }
+    .img-top-left { height: 6rem;padding: 0 0 0rem 2rem;/* top: 0px; */float: left; margin-bottom: 2rem;}
+    a.current { padding: 0 .3rem; font-size: 1rem; }
+    a.other { padding: 0 .3rem; font-size: 1rem; }
+    div.navigation { padding-top: 2rem; }
+
+}
+
+
+@media only screen and (min-width: 411px) and (max-width: 767px) 
+{ 
+    html {
+        width: 25rem;
+        font-size: 13px;
+    }
+    body{
+        padding: 0;
+    }
+    .title1{color: #b2132e;font-size: 2rem;}
+    .title2{color: #52739e;font-size: 2rem;}
+    .top-left { padding-right: 0rem; }
+    .bottom-right { font-size: 1rem; top: 2rem; padding-right: 0rem; }
+    .img-top-left { height: 6rem;padding: 0 0 0rem 2rem;/* top: 0px; */float: left; margin-bottom: 2rem;}
+    a.current { padding: 0 .3rem; font-size: 1rem; }
+    a.other { padding: 0 .3rem; font-size: 1rem; }
+    div.navigation { padding-top: 2rem; }
+
+}
+
+
+
+
+
+

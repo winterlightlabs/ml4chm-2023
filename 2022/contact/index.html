@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head> 
+    <base href='..'>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script> $.get('head.html', function(data) {
+        $('head').append(data);
+    }) </script>   
+</head> 
+
+
+<body>
+
+    <div id="header"></div>
+    <script> $("#header").load("header.html", function() {
+        $("#cont_button").attr("class", "current");
+    }) </script>
+
+    <br>
+    <p>
+    If you have questions or need more information, please email the 2020 MASC-SLL organizers via <strong>organizers AT mascsll DOT org</strong>.
+    </p>
+    <div id="footer"></div>
+    <script> $("#footer").load("footer.html") </script>
+
+    </body>
+
+    </body>
+</html>
+

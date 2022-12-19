@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head> 
+    <base href='..'>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script> $.get('head.html', function(data) {
+        $('head').append(data);
+    }) </script>   
+</head> 
+
+
+
+<body>
+    
+    <div id="header"></div>
+    <script> $("#header").load("header.html", function() {
+        $("#prog_button").attr("class", "current");
+    }) </script>
+
+    <br>
+    <p>
+    The event will take place at Temple University, <b>Science Education and Research Center (SERC)</b> Lobby and Room 116. See <a href="directions">Directions</a> for more details. 
+    </p>
+       <table>
+        <tr>
+            <td class="maindate" rowspan="1">
+                09:00am - 09:20am
+            </td>
+            <td class="title">
+                Welcome Reception           
+            </td>
+        </tr>
+        <tr>
+            <td class="maindate" rowspan="1">
+                09:20am - 9:30am
+            </td>
+            <td class="title">
+                Welcome note from organizers
+            </td>
+        </tr> 
+
+        <tr>
+            <td class="maindate" rowspan="1">
+                09:30am - 10:00am
+            </td>
+            <td class="title">
+                Sponsor Talk - Comcast AI Research 
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                10:00am - 11:00am
+            </td>
+            <td class="title">
+                Keynote 1 - Grounded Language Learning - <b>Ellie Pavlick</b>, Assistant Professor at Brown University and Research Scientist at Google AI
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                11:00am - 12:00pm
+            </td>
+            <td class="title">
+                Poster Session 1 (32 posters)
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                12:00pm - 1:00pm
+            </td>
+            <td class="title">
+                Lunch
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                1:00pm - 2:00pm
+            </td>
+            <td class="title">
+                Poster Session 2 (33 posters)
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                2:00pm - 3:00pm
+            </td>
+            <td class="title">
+                Talk Session 1 (5 talks)
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                3:00pm - 4:00pm
+            </td>
+            <td class="title">
+                Keynote 2 - ML for NLP - <b>Alexander Rush</b>, Associate Professor at Cornell University and Researcher at HuggingFace
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                4:00pm - 4:30pm
+            </td>
+            <td class="title">
+                Talk Session 2 (2 talks)
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                4:30pm - 5:00pm
+            </td>
+            <td class="title">
+                Afternoon Networking Reception
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+                5:00pm - 6:00pm
+            </td>
+            <td class="title">
+               Talk Session 3 (5 talks)
+            </td>
+        </tr>
+    </table>
+    <!---<table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="maindate" rowspan="1">
+                09:30am - 10:00am
+            </td>
+            <td class="title">
+                Talk Session 1 (SERC Room 116) 
+            </td>
+        </tr>
+        <tr>
+            <td class="maindate" rowspan="1">
+                10:00am - 11:00am
+            </td>
+            <td class="speaker">
+                Keynote 1 - Grounded NLP (Ellie Pavlick)
+            </td>
+        </tr>
+
+        <tr>
+            <td class="date" rowspan="1">
+                11:00am - 12:00pm
+            </td>
+            <td class="abstract">
+              
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                10:15am - 10:30am
+            </td>
+            <td class="abstract">
+              Talk 1.2 
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                10:30am - 10:45am
+            </td>
+            <td class="abstract">
+              Talk 1.3
+            </td>
+        </tr>
+
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="maindate" rowspan="1">
+                11:00am - 12:00pm
+            </td>
+            <td class="title">
+                Poster Session 1 (IRB G-Floor Lobby) 
+            </td>
+        </tr> 
+        <tr>
+            <td class="maindate" rowspan="1">
+            </td>
+            <td class="speaker">
+                Chairs: Sweta Agrawal, Calvin Bao 
+            </td>
+        </tr>
+
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="maindate" rowspan="1">
+                12:00pm - 01:00pm
+            </td>
+            <td class="title">
+                Lunch (IRB G-Floor Lobby)
+            </td>
+        </tr> 
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="maindate" rowspan="1">
+                01:15pm - 02:45pm
+            </td>
+            <td class="title">
+                Talk Session 2 (IRB 0318)           
+            </td>
+        </tr>
+        <tr>
+            <td class="maindate" rowspan="1">
+            </td>
+            <td class="speaker">
+                Chairs: Kelly Marchisio, Han-Chin Shing, Trista Cao
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                01:15pm - 01:30pm
+            </td>
+            <td class="abstract">
+              Talk 2.1
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                01:30pm - 01:45pm
+            </td>
+            <td class="abstract">
+              Talk 2.2 
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                01:45pm - 02:00pm
+            </td>
+            <td class="abstract">
+              Talk 2.3
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                02:00pm - 02:15pm
+            </td>
+            <td class="abstract">
+              Talk 2.4
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                02:15pm - 02:30pm
+            </td>
+            <td class="abstract">
+              Talk 2.5
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                02:30pm - 02:45pm
+            </td>
+            <td class="abstract">
+              Talk 2.6
+            </td>
+        </tr>
+
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="maindate" rowspan="1">
+                03:00pm - 04:00pm
+            </td>
+            <td class="title">
+                Poster Session 2 (IRB G-Floor Lobby)
+            </td>
+        </tr> 
+       <tr>
+            <td class="maindate" rowspan="1">
+            </td>
+            <td class="speaker">
+                Chairs: Manas Agarwal, Eleftheria Briakou  
+            </td>
+        </tr>
+
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="maindate" rowspan="1">
+                04:15pm - 05:30pm
+            </td>
+            <td class="title">
+                Talk Session 3 (IRB 0318) 
+            </td>
+        </tr>
+        <tr>
+            <td class="maindate" rowspan="1">
+            </td>
+            <td class="speaker">
+                Chairs: Khanh Nguyen, Aquia Richburg
+            </td>
+        </tr>
+
+        <tr>
+            <td class="date" rowspan="1">
+                04:15pm - 04:30pm
+            </td>
+            <td class="abstract">
+              Talk 3.1
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                04:30pm - 04:45pm
+            </td>
+            <td class="abstract">
+              Talk 3.2 
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                04:45pm - 05:00pm
+            </td>
+            <td class="abstract">
+              Talk 3.3
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                05:00pm - 05:15pm
+            </td>
+            <td class="abstract">
+              Talk 3.4
+            </td>
+        </tr>
+        <tr>
+            <td class="date" rowspan="1">
+                05:15pm - 05:30pm
+            </td>
+            <td class="abstract">
+              Talk 3.5
+            </td>
+        </tr>
+    </table> -->
+
+    <div id="footer"></div>
+    <script> $("#footer").load("footer.html") </script>
+
+    </body>
+
+    </body>
+</html>
+
