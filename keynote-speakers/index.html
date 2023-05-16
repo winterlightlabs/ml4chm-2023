@@ -1,61 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: start;
-        padding: 10px;
-      }
-      .speaker {
-        margin: 10px;
-        text-align: center;
-        width: 200px;
-      }
-      .speaker img {
-        width: 80%;
-        height: 70%;
-      }
-      .speaker .name {
-        font-weight: bold;
-        margin-top: 10px;
-      }
-      .speaker .institution {
-        color: grey;
-        font-size: 14px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="speaker">
-        <img src="assets/man-placeholder.png" alt="Speaker 1" />
-        <div class="name">Mohit Bansel</div>
-        <div class="institution"></div>
-      </div>
-      <div class="speaker">
-        <img src="assets/women-placeholder.png" alt="Speaker 2" />
-        <div class="name">Speaker 2</div>
-        <div class="institution">Institution 2</div>
-      </div>
-      <div class="speaker">
-        <img src="assets/man-placeholder.png" alt="Speaker 3" />
-        <div class="name">Speaker 1</div>
-        <div class="institution">Institution 1</div>
-      </div>
-      <div class="speaker">
-        <img src="assets/women-placeholder.png" alt="Speaker 4" />
-        <div class="name">Speaker 2</div>
-        <div class="institution">Institution 2</div>
-      </div>
-      <div class="speaker">
-        <img src="assets/man-placeholder.png" alt="Speaker 5" />
-        <div class="name">Speaker 1</div>
-        <div class="institution">Institution 1</div>
-      </div>
 
-      <!-- ...and so on for each speaker... -->
+<head>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      padding: 10px;
+    }
+
+    .speaker {
+      margin: 10px;
+      text-align: center;
+      width: 200px;
+    }
+
+    .speaker img {
+      width: 80%;
+      height: 70%;
+    }
+
+    .speaker .name {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .speaker .institution {
+      color: grey;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="speaker">
+      <img src="assets/man-placeholder.png" alt="Louis-Philippe Morency" />
+      <div class="name">Louis-Philippe Morency</div>
+      <div class="institution">Carnegie Mellon University</div>
     </div>
-  </body>
+    <div class="speaker">
+      <img src="assets/man-placeholder.png" alt="Mohit Bansal" />
+      <div class="name">Mohit Bansal</div>
+      <div class="institution">University of North Carolina at Chapel Hill</div>
+    </div>
+    <div class="speaker">
+      <img src="assets/man-placeholder.png" alt="Guillermo Cecchi" />
+      <div class="name">Guillermo Cecchi</div>
+      <div class="institution">IBM</div>
+    </div>
+    <div class="speaker">
+      <img src="assets/women-placeholder.png" alt="Speaker 3" />
+      <div class="name">Julia Parish-Morris</div>
+      <div class="institution">Children’s Hospital of Philadelphia</div>
+    </div>
+    <div class="speaker">
+      <img src="assets/man-placeholder.png" alt="Speaker 4" />
+      <div class="name">Christopher Clark</div>
+      <div class="institution">Allen Institute for AI</div>
+    </div>
+    <div class="speaker">
+      <img src="assets/man-placeholder.png" alt="Speaker 5" />
+      <div class="name">Danilo Bzdok</div>
+      <div class="institution">McGill University, MILA, CIFAR AI</div>
+    </div>
+
+    <!-- ...and so on for each speaker... -->
+  </div>
+</body>
+
 </html>
