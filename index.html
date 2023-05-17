@@ -1,83 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      $("head").load("head.html");
+    </script>
+  </head>
 
-<head>
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script>
-    $("head").load("head.html");
-  </script>
-</head>
+  <body>
+    <div id="header"></div>
+    <script>
+      $("#header").load("header.html", function () {
+        $("#home_button").attr("class", "current");
+      });
+    </script>
 
-<body>
-  <div id="header"></div>
-  <script>
-    $("#header").load("header.html", function () {
-      $("#home_button").attr("class", "current");
-    });
-  </script>
+    <h2></h2>
+    <p>
+      With a mental health crisis and growing old population, there is an
+      immediate need for developing systems that can better understand cognitive
+      and mental health (CMH) tracking various biomarkers from fMRI, EEG,
+      speech, movement, cognitive surveys, wearable devices, genomic and
+      epigenomic data. One of the core technical opportunities for accelerating
+      the computational analysis of CMH lies in multimodal (MM) machine learning
+      (ML): learning representations that model the heterogeneity and
+      interconnections between diverse input signals. Recently, major progress
+      has been made in MM learning from text, speech, images, or video (Baevski
+      et al., 2022; Ramesh et al., 2022; Ho et al., 2022), and there has also
+      been initial success towards using MM streams to improve prediction of
+      patient status or response to treatment in CMH applications (Zhu et al.,
+      2018; Zhang et al., 2019; Venugopalan et al., 2021; Ehghaghi et al., 2022;
+      Ilias et al, 2022; Shellikeri et al., 2022; Qiu et al., 2022). However,
+      there remains computational and theoretical challenges that need to be
+      solved in MM learning for CMH, spanning (1) collecting and sharing quality
+      MM data for moderate and severe patients, (2) high-modality learning from
+      many diverse and understudied signals, (3) theoretically understanding the
+      natural way of modality connections and interactions, (4) real-world
+      deployment concerns such as safety, robustness, interpretability, and
+      collaboration with various stakeholders, and (5) extending MM models for
+      extremely low resource and multilingual environments.
+    </p>
+    <p>
+      This workshop has three primary goals: (1) bring together experts from
+      multiple disciplines working on MM and CMH to learn from each other, (2)
+      encourage the development of shared goals and approaches across these
+      communities, and (3) stimulate creation of better MM technologies for
+      real-world CMH impact. To achieve these goals, our workshop will include a
+      diverse lineup of invited speakers across fields associated with MM and
+      CMH, hosting experts from ML, CV, NLP, MM learning, neuroscience, and
+      psychology. Our workshop’s combination of talks, papers, and panel
+      discussions will spur further collaboration toward the advancement of MM
+      for CMH.
+    </p>
 
-  <h2></h2>
-  <p>
-    With a mental health crisis and growing old population, there is an
-    immediate need for developing systems that can better understand
-    cognitive and mental health (CMH) tracking various biomarkers from fMRI,
-    EEG, speech, movement, cognitive surveys, wearable devices, genomic and
-    epigenomic data. One of the core technical opportunities for accelerating
-    the computational analysis of CMH lies in multimodal (MM) machine
-    learning (ML): learning representations that model the heterogeneity
-    and interconnections between diverse input signals. Recently, major
-    progress has been made in MM learning from text, speech, images, or
-    video (Baevski et al., 2022; Ramesh et al., 2022; Ho et al., 2022), and
-    there has also been initial success towards using MM streams to improve
-    prediction of patient status or response to treatment in CMH applications
-    (Zhu et al., 2018; Zhang et al., 2019; Venugopalan et al., 2021; Ehghaghi
-    et al., 2022; Ilias et al, 2022; Shellikeri et al., 2022; Qiu et al.,
-    2022). However, there remains computational and theoretical challenges
-    that need to be solved in MM learning for CMH, spanning (1) collecting
-    and sharing quality MM data for moderate and severe patients, (2)
-    high-modality learning from many diverse and understudied signals, (3)
-    theoretically understanding the natural way of modality connections and
-    interactions, (4) real-world deployment concerns such as safety,
-    robustness, interpretability, and collaboration with various stakeholders,
-    and (5) extending MM models for extremely low resource and multilingual
-    environments.
+    <h2>Keynote Speakers</h2>
+    <div id="keynote-speakers"></div>
+    <script>
+      $("#keynote-speakers").load("keynote-speakers/index.html");
+    </script>
 
-  </p>
-  <p>
-    This workshop has three primary goals: (1) bring together experts from
-    multiple disciplines working on MM and CMH to learn from each other, (2)
-    encourage the development of shared goals and approaches across these
-    communities, and (3) stimulate creation of better MM technologies for
-    real-world CMH impact. To achieve these goals, our workshop will include
-    a diverse lineup of invited speakers across fields associated with MM
-    and CMH, hosting experts from ML, CV, NLP, MM learning, neuroscience,
-    and psychology. Our workshop’s combination of talks, papers, and panel
-    discussions will spur further collaboration toward the advancement of MM
-    for CMH.
-  </p>
+    <h2>Panel Speakers</h2>
+    <div id="panel-speakers"></div>
+    <script>
+      $("#panel-speakers").load("panel-speakers/index.html");
+    </script>
 
-  <h2>Keynote Speakers</h2>
-  <div id="keynote-speakers"></div>
-  <script>
-    $("#keynote-speakers").load("keynote-speakers/index.html");
-  </script>
+    <h2>Organizers</h2>
+    <div id="organizer-speakers"></div>
+    <script>
+      $("#organizer-speakers").load("organizer-speakers/index.html");
+    </script>
 
-  <h2>Panel Speakers</h2>
-  <div id="panel-speakers"></div>
-  <script>
-    $("#panel-speakers").load("panel-speakers/index.html");
-  </script>
-
-  <h2>Organizers</h2>
-  <div id="organizer-speakers"></div>
-  <script>
-    $("#organizer-speakers").load("organizer-speakers/index.html");
-  </script>
-
-  <div id="footer"></div>
-  <script>
-    $("#footer").load("footer.html");
-  </script>
-</body>
-
+    <div id="footer"></div>
+    <script>
+      $("#footer").load("footer.html");
+    </script>
+  </body>
 </html>
