@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang='en'>
 
-<head> 
+<head>
     <base href='..'>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script> $.get('head.html', function(data) {
-        $('head').append(data);
-    }) </script>    
-</head> 
+    <script> $.get('head.html', function (data) {
+            $('head').append(data);
+        }) </script>
+</head>
 
 
 
 <body>
 
     <div id="header"></div>
-    <script> $("#header").load("header.html", function() {
-        $("#cfp_button").attr("class", "current");
-    }) </script>
+    <script> $("#header").load("header.html", function () {
+            $("#cfp_button").attr("class", "current");
+        }) </script>
 
     <br>
-	If you don't see an embedded form below, <a href="https://forms.gle/DBWfzBw9sBxBd2mM9">click here</a>.
+    If you don't see an embedded form below, <a href="https://forms.gle/DBWfzBw9sBxBd2mM9">click here</a>.
     <br>
     <center>
-    <iframe src="https://forms.gle/DBWfzBw9sBxBd2mM9" width="700" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe src="https://forms.gle/DBWfzBw9sBxBd2mM9" width="700" height="1000" frameborder="0" marginheight="0"
+            marginwidth="0">Loading…</iframe>
     </center>
 
     <div id="footer"></div>
     <script> $("#footer").load("footer.html") </script>
 
-    </body>
+</body>
 
-    </body>
+</body>
+
 </html>
-

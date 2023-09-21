@@ -28,7 +28,7 @@ html {
 }
 
 div.navigation {
-  padding: 3rem 0 0 0;
+  padding: 7rem 0 0 0;
   text-align: center;
 }
 
@@ -121,6 +121,12 @@ p {
 ul {
   list-style: none;
   margin: 1rem auto 1rem auto;
+  /* width:800px; */
+  text-align: left;
+}
+
+ol {
+  margin: 1rem auto 1rem 3rem;
   /* width:800px; */
   text-align: left;
 }
@@ -504,7 +510,8 @@ td.footer {
 .speaker-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* This will space your speakers evenly across the row */
+  justify-content: space-around;
+  /* This will space your speakers evenly across the row */
   padding: 10px;
 }
 
@@ -515,6 +522,7 @@ td.footer {
   text-align: center;
   padding: 0 10px;
 }
+
 .speaker img {
   width: 100%;
   height: auto;
@@ -522,7 +530,8 @@ td.footer {
 
 .speaker .name {
   font-weight: bold;
-  margin-top: 10px; /* You may want to adjust this value */
+  margin-top: 10px;
+  /* You may want to adjust this value */
 }
 
 @media only screen and (max-width: 600px) {

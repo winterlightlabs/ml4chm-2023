@@ -1,181 +1,246 @@
 <!DOCTYPE html>
 <html lang='en'>
 <style>
-p.small{line-height:100%;}
+    p.small {
+        line-height: 100%;
+    }
 </style>
 
-<head> 
+<head>
     <base href='..'>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script> $.get('head.html', function(data) {
-        $('head').append(data);
-    }) </script>   
-</head> 
+    <script> $.get('head.html', function (data) {
+            $('head').append(data);
+        }) </script>
+</head>
 
 
 
 <body>
-    
+
     <div id="header"></div>
-    <script> $("#header").load("header.html", function() {
-        $("#prog_button").attr("class", "current");
-    }) </script>
+    <script> $("#header").load("header.html", function () {
+            $("#prog_button").attr("class", "current");
+        }) </script>
 
     <br>
     <p>
-    The event will take place at George Mason University, <b>Van Metre Hall (Arlington Campus)</b> Room 125/126. See <a href=".">Directions</a> for more details. 
+        The event will take place at George Mason University, <b>Van Metre Hall (Arlington Campus)</b> Room 125/126. See
+        <a href=".">Directions</a> for more details.
     </p>
 
     <h2>Schedule</h2>
     <p>
     <ul>
         <table>
-        <tr>
-            <td class="maindate" rowspan="1">
-                09:30am - 10:00am
-            </td>
-            <td class="title">
-                Registration + Reception
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                10:00am - 10:15am
-            </td>
-            <td class="title">
-                Welcome Remark
-            </td>
-        </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    09:30am - 10:00am
+                </td>
+                <td class="title">
+                    Registration + Reception
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    10:00am - 10:15am
+                </td>
+                <td class="title">
+                    Welcome Remark
+                </td>
+            </tr>
 
-        <tr>
-            <td class="maindate" rowspan="1">
-                10:15am - 11:00am
-            </td>
-            <td class="title">
-                Keynote 1 - “Not so fast!”: Revisiting assumptions in (and about) Natural Language Reasoning - <b>Rachel Rudinger</b>, Assistant Professor at University of Maryland, College Park
+            <tr>
+                <td class="maindate" rowspan="1">
+                    10:15am - 11:00am
+                </td>
+                <td class="title">
+                    Keynote 1 - “Not so fast!”: Revisiting assumptions in (and about) Natural Language Reasoning -
+                    <b>Rachel Rudinger</b>, Assistant Professor at University of Maryland, College Park
 
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                11:00am - 12:00pm
-            </td>
-            <td class="title">
-                4 Student Talks
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                12:00pm - 1:00pm
-            </td>
-            <td class="title">
-                Lunch
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                1:00pm - 3:00pm
-            </td>
-            <td class="title">
-                Poster Session
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                3:00pm - 3:45pm
-            </td>
-            <td class="title">
-                Keynote 2 - Is My NLP Model Working? The Answer is Harder Than You Think - <b>Graham Neubig</b>, Associate professor at the Language Technologies Institute of Carnegie Mellon University and CEO of Inspired Cognition
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                3:45pm - 4:30pm
-            </td>
-            <td class="title">
-                3 Student Talks
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                4:30pm - 4:45pm
-            </td>
-            <td class="title">
-                Break
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                4:45pm - 5:30pm
-            </td>
-            <td class="title">
-                Keynote 3 - NLP Applications in Mental Health - <b>Nazli Goharian</b>, Clinical Professor of Computer Science and Associate Director of the Information Retrieval Lab at Georgetown University
-            </td>
-        </tr>
-        <tr>
-            <td class="maindate" rowspan="1">
-                5:30pm - 5:45pm
-            </td>
-            <td class="title">
-                Closing Remark
-            </td>
-        </tr>
-    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    11:00am - 12:00pm
+                </td>
+                <td class="title">
+                    4 Student Talks
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    12:00pm - 1:00pm
+                </td>
+                <td class="title">
+                    Lunch
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    1:00pm - 3:00pm
+                </td>
+                <td class="title">
+                    Poster Session
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    3:00pm - 3:45pm
+                </td>
+                <td class="title">
+                    Keynote 2 - Is My NLP Model Working? The Answer is Harder Than You Think - <b>Graham Neubig</b>,
+                    Associate professor at the Language Technologies Institute of Carnegie Mellon University and CEO of
+                    Inspired Cognition
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    3:45pm - 4:30pm
+                </td>
+                <td class="title">
+                    3 Student Talks
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    4:30pm - 4:45pm
+                </td>
+                <td class="title">
+                    Break
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    4:45pm - 5:30pm
+                </td>
+                <td class="title">
+                    Keynote 3 - NLP Applications in Mental Health - <b>Nazli Goharian</b>, Clinical Professor of
+                    Computer Science and Associate Director of the Information Retrieval Lab at Georgetown University
+                </td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">
+                    5:30pm - 5:45pm
+                </td>
+                <td class="title">
+                    Closing Remark
+                </td>
+            </tr>
+        </table>
     </ul>
     </p>
 
     <h2>Invited Speakers</h2>
-<!--    <h3 id="Mona Diab">Mona Diab</h3>-->
+    <!--    <h3 id="Mona Diab">Mona Diab</h3>-->
     <figure>
-                  <a href="http://rudinger.github.io/" target="_block">
-                      <img src="static/Rachel.png" class="img-fluid mx-auto d-block" width="200" height="250" />
-                  </a>
-              </figure>
+        <a href="http://rudinger.github.io/" target="_block">
+            <img src="static/Rachel.png" class="img-fluid mx-auto d-block" width="200" height="250" />
+        </a>
+    </figure>
     <p class="small"><b><a href="http://rudinger.github.io/" target="_block">Rachel Rudinger</a></b><br>
-    <i>University of Maryland, College Park</i><br></p>
+        <i>University of Maryland, College Park</i><br>
+    </p>
     <p>
-    <strong>Title:</strong><br>“Not so fast!”: Revisiting assumptions in (and about) Natural Language Reasoning<br>
-    <strong>Abstract:</strong><br>In recent years, the field of Natural Language Processing has seen a profusion of tasks, datasets, and systems that facilitate reasoning about real-world situations through language (e.g., RTE, MNLI, COMET). Such systems might, for example, be trained to consider a situation where “somebody dropped a glass on the floor,” and conclude it is likely that “the glass shattered” as a result. In this talk, I will discuss three pieces of work that revisit assumptions made by or about these systems. In the first work, I develop a Defeasible Inference task, which enables a system to recognize when a prior assumption it has made may no longer be true in light of new evidence it receives. The second work I will discuss revisits partial-input baselines, which have highlighted issues of spurious correlations in natural language reasoning datasets and led to unfavorable assumptions about models’ reasoning abilities. In particular, I will discuss experiments that show models may still learn to reason in the presence of spurious dataset artifacts. Finally, I will touch on work analyzing harmful assumptions made by reasoning models in the form of social stereotypes, and how these stereotypes may be uncovered automatically.<br>
-        <strong>Brief Bio:</strong><br>Rachel Rudinger is an Assistant Professor in the Department of Computer Science at the University of Maryland, College Park. She holds joint appointments in the Department of Linguistics and the Institute for Advanced Computer Studies (UMIACS). In 2019, Rachel completed her Ph.D. in Computer Science at Johns Hopkins University in the Center for Language and Speech Processing. From 2019-2020, she was a Young Investigator at the Allen Institute for AI in Seattle, and a visiting researcher at the University of Washington. Her research interests include computational semantics, common-sense reasoning, and issues of social bias and fairness in NLP.<br>
+        <strong>Title:</strong><br>“Not so fast!”: Revisiting assumptions in (and about) Natural Language Reasoning<br>
+        <strong>Abstract:</strong><br>In recent years, the field of Natural Language Processing has seen a profusion of
+        tasks, datasets, and systems that facilitate reasoning about real-world situations through language (e.g., RTE,
+        MNLI, COMET). Such systems might, for example, be trained to consider a situation where “somebody dropped a
+        glass on the floor,” and conclude it is likely that “the glass shattered” as a result. In this talk, I will
+        discuss three pieces of work that revisit assumptions made by or about these systems. In the first work, I
+        develop a Defeasible Inference task, which enables a system to recognize when a prior assumption it has made may
+        no longer be true in light of new evidence it receives. The second work I will discuss revisits partial-input
+        baselines, which have highlighted issues of spurious correlations in natural language reasoning datasets and led
+        to unfavorable assumptions about models’ reasoning abilities. In particular, I will discuss experiments that
+        show models may still learn to reason in the presence of spurious dataset artifacts. Finally, I will touch on
+        work analyzing harmful assumptions made by reasoning models in the form of social stereotypes, and how these
+        stereotypes may be uncovered automatically.<br>
+        <strong>Brief Bio:</strong><br>Rachel Rudinger is an Assistant Professor in the Department of Computer Science
+        at the University of Maryland, College Park. She holds joint appointments in the Department of Linguistics and
+        the Institute for Advanced Computer Studies (UMIACS). In 2019, Rachel completed her Ph.D. in Computer Science at
+        Johns Hopkins University in the Center for Language and Speech Processing. From 2019-2020, she was a Young
+        Investigator at the Allen Institute for AI in Seattle, and a visiting researcher at the University of
+        Washington. Her research interests include computational semantics, common-sense reasoning, and issues of social
+        bias and fairness in NLP.<br>
     </p>
 
-<!--    <h3 id="Neubig">Graham Neubig</h3>-->
+    <!--    <h3 id="Neubig">Graham Neubig</h3>-->
     <figure>
-          <a href="http://www.phontron.com/" target="_block">
-              <img src="static/neubig.jpeg" class="img-fluid mx-auto d-block" width="200" height="250"/>
-          </a>
-      </figure>
-      <p class="small"><b><a href="http://www.phontron.com/" target="_block">Graham Neubig</a></b><br>
-      <i>Carnegie Mellon University/Inspired Cognition</i><br></p>
+        <a href="http://www.phontron.com/" target="_block">
+            <img src="static/neubig.jpeg" class="img-fluid mx-auto d-block" width="200" height="250" />
+        </a>
+    </figure>
+    <p class="small"><b><a href="http://www.phontron.com/" target="_block">Graham Neubig</a></b><br>
+        <i>Carnegie Mellon University/Inspired Cognition</i><br>
+    </p>
     <p>
-    <strong>Title:</strong><br>Is My NLP Model Working? The Answer is Harder Than You Think<br>
-    <strong>Abstract:</strong><br>As natural language processing now permeates many different applications, its practical use is unquestionable. However, at the same time NLP is still imperfect, and errors cause everything from minor inconveniences to major PR disasters. Better understanding when our NLP models work and when they fail is critical to the efficient and reliable use of NLP in real-world scenarios. So how can we do so? In this talk I will discuss two issues: automatic evaluation of generated text, and automatic fine-grained analysis of NLP system results, which are some first steps towards a science of NLP model evaluation.<br>
-        <strong>Brief Bio:</strong><br>Graham Neubig is an associate professor at the Language Technologies Institute of Carnegie Mellon University and CEO of Inspired Cognition. His research focuses on natural language processing, with a focus on multilingual NLP, natural language interfaces to computers, and machine learning methods for NLP system building and evaluation. His final goal is that every person in the world should be able to communicate with each-other, and with computers in their own language. He also contributes to making NLP research more accessible through open publishing of research papers, advanced NLP course materials and video lectures, and open-source software, all of which are available on his <a href="http://www.phontron.com/" target="_block">website</a>.<br>
+        <strong>Title:</strong><br>Is My NLP Model Working? The Answer is Harder Than You Think<br>
+        <strong>Abstract:</strong><br>As natural language processing now permeates many different applications, its
+        practical use is unquestionable. However, at the same time NLP is still imperfect, and errors cause everything
+        from minor inconveniences to major PR disasters. Better understanding when our NLP models work and when they
+        fail is critical to the efficient and reliable use of NLP in real-world scenarios. So how can we do so? In this
+        talk I will discuss two issues: automatic evaluation of generated text, and automatic fine-grained analysis of
+        NLP system results, which are some first steps towards a science of NLP model evaluation.<br>
+        <strong>Brief Bio:</strong><br>Graham Neubig is an associate professor at the Language Technologies Institute of
+        Carnegie Mellon University and CEO of Inspired Cognition. His research focuses on natural language processing,
+        with a focus on multilingual NLP, natural language interfaces to computers, and machine learning methods for NLP
+        system building and evaluation. His final goal is that every person in the world should be able to communicate
+        with each-other, and with computers in their own language. He also contributes to making NLP research more
+        accessible through open publishing of research papers, advanced NLP course materials and video lectures, and
+        open-source software, all of which are available on his <a href="http://www.phontron.com/"
+            target="_block">website</a>.<br>
     </p>
 
 
-<!--    <h3 id="Nazli">Nazli Goharian</h3>-->
-<!--    <figure style="margin: auto;" class="rounded">-->
+    <!--    <h3 id="Nazli">Nazli Goharian</h3>-->
+    <!--    <figure style="margin: auto;" class="rounded">-->
     <figure>
         <a href="https://people.cs.georgetown.edu/~nazli/" target="_block">
-              <img src="static/nazli.png" class="img-fluid mx-auto d-block" width="200" height="250"/>
+            <img src="static/nazli.png" class="img-fluid mx-auto d-block" width="200" height="250" />
         </a>
     </figure>
     <p class="small"><b><a href="https://people.cs.georgetown.edu/~nazli/" target="_block">Nazli Goharian</a></b><br>
-    <i>Georgetown University</i><br></p>
+        <i>Georgetown University</i><br>
+    </p>
     <p>
-    <strong>Title:</strong><br>NLP Applications in Mental Health<br>
-    <strong>Abstract:</strong><br>With the ever-increasing usage of social media to either explicitly seek help or to simply share thoughts and feelings, we, in the computational disciplines, have the opportunity to utilize such data for building datasets, models, and doing analysis.  I will share our collaborative work done at the Information Retrieval Lab at Georgetown University on detecting and summarizing mental health concerns in social media posts. The first application is on a dedicated mental health forum with the goal of triaging the severity of users’ posts to detect early the potential of self-harm. In the second type of platform, i.e., non-dedicated, we focus on the question of whether we can detect if a user is suffering from any one or more of nine mental health conditions, only using the *general language* of the user; that is, the posts are not in mental health [sub]forums nor have any mental health related words. Detecting mental health conditions based on a relatively smaller number of posts generally is not promising; hence it is important to mitigate our approaches so that such low resource users do not go undetected; we show that changing the sensitivity of ML models by adjusting the decision boundary threshold based on the volume of available data improves the detection rate. Identifying whether a given mental health condition of a user is a recent condition, similarly, whether the user currently suffers from a condition, are important questions yet challenging tasks as our efforts have shown us.   Finally, to address information reduction for a faster read and processing of users’ posts by moderators/counselors, I will provide our efforts to summarize the posts to their short forms.        <br>
-        <strong>Brief Bio:</strong><br>Nazli Goharian is Clinical Professor of Computer Science and Associate Director of the Information Retrieval Lab at Georgetown University, which she co-founded in 2010. She joined the Illinois Institute of Technology (IIT) from industry in 2000. Her research and doctoral student mentorship span the domains of information retrieval, text mining, and natural language processing. Specifically, her interest lies in humane-computing applications such as medical/health domain. Joint with her doctoral students, she received an EMNLP 2017 Best Long Paper Award and COLING 2018 Honorable Mention both for papers on mental health and social media.  For contributions to undergraduate and graduate curriculum development and teaching excellence, she was recognized with the IIT Julia Beveridge Award for faculty (university-wide female faculty of the year) in 2009, the College of Science and Letters Dean’s Excellence Award in Teaching in 2005, and in 2002, 2003, and 2007, the Computer Science Department Teacher of the Year Award.  She served as Senior/Area Chairs at multiple ACL conferences. She is SIGIR Women in Information retrieval (WIR) chair since 2019, focusing on gender pay inequity and women leadership.
+        <strong>Title:</strong><br>NLP Applications in Mental Health<br>
+        <strong>Abstract:</strong><br>With the ever-increasing usage of social media to either explicitly seek help or
+        to simply share thoughts and feelings, we, in the computational disciplines, have the opportunity to utilize
+        such data for building datasets, models, and doing analysis. I will share our collaborative work done at the
+        Information Retrieval Lab at Georgetown University on detecting and summarizing mental health concerns in social
+        media posts. The first application is on a dedicated mental health forum with the goal of triaging the severity
+        of users’ posts to detect early the potential of self-harm. In the second type of platform, i.e., non-dedicated,
+        we focus on the question of whether we can detect if a user is suffering from any one or more of nine mental
+        health conditions, only using the *general language* of the user; that is, the posts are not in mental health
+        [sub]forums nor have any mental health related words. Detecting mental health conditions based on a relatively
+        smaller number of posts generally is not promising; hence it is important to mitigate our approaches so that
+        such low resource users do not go undetected; we show that changing the sensitivity of ML models by adjusting
+        the decision boundary threshold based on the volume of available data improves the detection rate. Identifying
+        whether a given mental health condition of a user is a recent condition, similarly, whether the user currently
+        suffers from a condition, are important questions yet challenging tasks as our efforts have shown us. Finally,
+        to address information reduction for a faster read and processing of users’ posts by moderators/counselors, I
+        will provide our efforts to summarize the posts to their short forms. <br>
+        <strong>Brief Bio:</strong><br>Nazli Goharian is Clinical Professor of Computer Science and Associate Director
+        of the Information Retrieval Lab at Georgetown University, which she co-founded in 2010. She joined the Illinois
+        Institute of Technology (IIT) from industry in 2000. Her research and doctoral student mentorship span the
+        domains of information retrieval, text mining, and natural language processing. Specifically, her interest lies
+        in humane-computing applications such as medical/health domain. Joint with her doctoral students, she received
+        an EMNLP 2017 Best Long Paper Award and COLING 2018 Honorable Mention both for papers on mental health and
+        social media. For contributions to undergraduate and graduate curriculum development and teaching excellence,
+        she was recognized with the IIT Julia Beveridge Award for faculty (university-wide female faculty of the year)
+        in 2009, the College of Science and Letters Dean’s Excellence Award in Teaching in 2005, and in 2002, 2003, and
+        2007, the Computer Science Department Teacher of the Year Award. She served as Senior/Area Chairs at multiple
+        ACL conferences. She is SIGIR Women in Information retrieval (WIR) chair since 2019, focusing on gender pay
+        inequity and women leadership.
         <br>
     </p>
-       <!-- <table>
+    <!-- <table>
         <tr>
             <td class="maindate" rowspan="1">
                 09:00am - 09:20am
             </td>
             <td class="title">
-                Welcome Reception           
+                Welcome Reception
             </td>
         </tr>
         <tr>
@@ -185,16 +250,16 @@ p.small{line-height:100%;}
             <td class="title">
                 Welcome note from organizers
             </td>
-        </tr> 
+        </tr>
 
         <tr>
             <td class="maindate" rowspan="1">
                 09:30am - 10:00am
             </td>
             <td class="title">
-                Sponsor Talk - Comcast AI Research 
+                Sponsor Talk - Comcast AI Research
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 10:00am - 11:00am
@@ -202,7 +267,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Keynote 1 - Grounded Language Learning - <b>Ellie Pavlick</b>, Assistant Professor at Brown University and Research Scientist at Google AI
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 11:00am - 12:00pm
@@ -210,7 +275,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Poster Session 1 (32 posters)
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 12:00pm - 1:00pm
@@ -218,7 +283,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Lunch
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 1:00pm - 2:00pm
@@ -226,7 +291,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Poster Session 2 (33 posters)
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 2:00pm - 3:00pm
@@ -234,7 +299,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Talk Session 1 (5 talks)
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 3:00pm - 4:00pm
@@ -242,7 +307,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Keynote 2 - ML for NLP - <b>Alexander Rush</b>, Associate Professor at Cornell University and Researcher at HuggingFace
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 4:00pm - 4:30pm
@@ -250,7 +315,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Talk Session 2 (2 talks)
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 4:30pm - 5:00pm
@@ -258,7 +323,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Afternoon Networking Reception
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
                 5:00pm - 6:00pm
@@ -274,7 +339,7 @@ p.small{line-height:100%;}
                 09:30am - 10:00am
             </td>
             <td class="title">
-                Talk Session 1 (SERC Room 116) 
+                Talk Session 1 (SERC Room 116)
             </td>
         </tr>
         <tr>
@@ -291,7 +356,7 @@ p.small{line-height:100%;}
                 11:00am - 12:00pm
             </td>
             <td class="abstract">
-              
+
             </td>
         </tr>
         <tr>
@@ -299,7 +364,7 @@ p.small{line-height:100%;}
                 10:15am - 10:30am
             </td>
             <td class="abstract">
-              Talk 1.2 
+              Talk 1.2
             </td>
         </tr>
         <tr>
@@ -319,14 +384,14 @@ p.small{line-height:100%;}
                 11:00am - 12:00pm
             </td>
             <td class="title">
-                Poster Session 1 (IRB G-Floor Lobby) 
+                Poster Session 1 (IRB G-Floor Lobby)
             </td>
-        </tr> 
+        </tr>
         <tr>
             <td class="maindate" rowspan="1">
             </td>
             <td class="speaker">
-                Chairs: Sweta Agrawal, Calvin Bao 
+                Chairs: Sweta Agrawal, Calvin Bao
             </td>
         </tr>
 
@@ -340,7 +405,7 @@ p.small{line-height:100%;}
             <td class="title">
                 Lunch (IRB G-Floor Lobby)
             </td>
-        </tr> 
+        </tr>
     </table>
 
     <table id="PUTSPEAKERNAMEHERE">
@@ -349,7 +414,7 @@ p.small{line-height:100%;}
                 01:15pm - 02:45pm
             </td>
             <td class="title">
-                Talk Session 2 (IRB 0318)           
+                Talk Session 2 (IRB 0318)
             </td>
         </tr>
         <tr>
@@ -372,7 +437,7 @@ p.small{line-height:100%;}
                 01:30pm - 01:45pm
             </td>
             <td class="abstract">
-              Talk 2.2 
+              Talk 2.2
             </td>
         </tr>
         <tr>
@@ -418,12 +483,12 @@ p.small{line-height:100%;}
             <td class="title">
                 Poster Session 2 (IRB G-Floor Lobby)
             </td>
-        </tr> 
+        </tr>
        <tr>
             <td class="maindate" rowspan="1">
             </td>
             <td class="speaker">
-                Chairs: Manas Agarwal, Eleftheria Briakou  
+                Chairs: Manas Agarwal, Eleftheria Briakou
             </td>
         </tr>
 
@@ -435,7 +500,7 @@ p.small{line-height:100%;}
                 04:15pm - 05:30pm
             </td>
             <td class="title">
-                Talk Session 3 (IRB 0318) 
+                Talk Session 3 (IRB 0318)
             </td>
         </tr>
         <tr>
@@ -459,7 +524,7 @@ p.small{line-height:100%;}
                 04:30pm - 04:45pm
             </td>
             <td class="abstract">
-              Talk 3.2 
+              Talk 3.2
             </td>
         </tr>
         <tr>
@@ -491,8 +556,8 @@ p.small{line-height:100%;}
     <div id="footer"></div>
     <script> $("#footer").load("footer.html") </script>
 
-    </body>
+</body>
 
-    </body>
+</body>
+
 </html>
-
