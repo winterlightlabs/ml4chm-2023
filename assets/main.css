@@ -89,10 +89,12 @@ h1,
 h2,
 h3,
 h4 {
+  text-align: center;
   clear: left;
   color: #70344a;
   margin: 2.5rem 0em 1em 0em;
   font-family: "Roboto Slab", serif;
+
 }
 
 h1 {
@@ -293,6 +295,16 @@ td.maindate {
   white-space: nowrap;
   width: 130px;
   text-align: right;
+  vertical-align: top;
+  padding: 4px 16px 0px 0px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+td.maindate2 {
+  white-space: nowrap;
+  width: 130px;
+  text-align: left;
   vertical-align: top;
   padding: 4px 16px 0px 0px;
   font-size: 1rem;
