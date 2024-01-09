@@ -188,6 +188,21 @@ td {
   font-size: 3rem;
 }
 
+.papertitle {
+  color: #70344a;
+  font-size: 16px;
+}
+
+.authors {
+  color: #505050;
+  font-size: 16px;
+}
+
+tr.accpapers td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
 .year {
   color: #505050;
   font-size: 0.67em;
@@ -439,6 +454,21 @@ td.footer {
     font-size: 2rem;
   }
 
+  .papertitle {
+    color: #70344a;
+    font-size: 16px;
+  }
+
+  .authors {
+    color: #505050;
+    font-size: 16px;
+  }
+
+  tr.accpapers td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
   .top-left {
     padding-right: 0rem;
   }
@@ -482,6 +512,21 @@ td.footer {
   .title2 {
     color: #52739e;
     font-size: 2rem;
+  }
+
+  .papertitle {
+    color: #70344a;
+    font-size: 16px;
+  }
+
+  .authors {
+    color: #505050;
+    font-size: 16px;
+  }
+
+  tr.accpapers td {
+    border: 1px solid black;
+    padding: 5px;
   }
 
   .top-left {
