@@ -335,6 +335,15 @@ td.title {
   height: 32px;
 }
 
+td.title1 {
+  padding: 4px 12px 4px 4px;
+  width: 90%;
+  vertical-align: top;
+  font-size: 1em;
+  color: #70344a;
+  height: 32px;
+}
+
 td.title-special {
   padding: 4px 12px 4px 4px;
   width: 90%;
